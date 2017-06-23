@@ -1,0 +1,20 @@
+It helped me quickly spot the changes and make out easily where the typo was.
+
+Having an entire history of a file would help in easily reverting back to older verions of the file which was working fine.
+
+Pros:
+Changes ae saved only when user wants
+User has a better idea when the code written is worth calling as a new version.
+
+Cons:
+Changes made may get lost if not saved manually by the user.
+Makes it easier to automate version control.
+
+Saving multiple files together helps maintain the consistency of the system files. On the other hand, saving all files together might 
+increase the storage requirements for that project.
+
+First use git log to find out the commits which made changes to get their commit IDs. Then use git diff with the commit IDs to be compared to see what has changed.
+
+Reverting back to old commit states using git checkout.How might using version control make you more confident to make changes that could break something?
+
+To track changes on my Android project.
